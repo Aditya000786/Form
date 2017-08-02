@@ -1,0 +1,38 @@
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.jumbotron {
+    /* @include zero-margin(70px,30px); */
+    background: #9575CD; ;
+    // color:floralwhite;
+
+}
+
+.active{
+    background: #4527A0;
+}
+
+.space{
+    margin-top: 5px;
+}
+
+.space2{
+    margin-left:500px;
+}
+.img-circle{border-radius:50%}
+.img-responsive{display:block;max-width:100%;height:auto}
+
+.user-img-div-top {
+          width: 40px;
+          height: 40px;
+          margin: 5px 5px 5px 0;
+          border-radius: 100%;
+          cursor: pointer; }
+
